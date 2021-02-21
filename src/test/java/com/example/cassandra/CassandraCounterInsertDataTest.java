@@ -34,16 +34,6 @@ public class CassandraCounterInsertDataTest extends CassandraCounterBaseTest {
         LOGGER.info("Executor service shutdown gracefully.");
     }
 
-/*
-    private void submitCassandraUpdate(CqlSession cqlSession, PreparedStatement ps) {
-        cqlSession.execute(ps.bind(1L, 10L, UUID.fromString("404318db-d442-44dc-b1d0-c15c2f96f3b7")));
-        cqlSession.execute(ps.bind(1L, 10L, UUID.fromString("404318db-d442-44dc-b1d0-c15c2f96f3b7")));
-        cqlSession.execute(ps.bind(1L, 10L, UUID.fromString("404318db-d442-44dc-b1d0-c15c2f96f3b7")));
-        cqlSession.execute(ps.bind(1L, 10L, UUID.fromString("404318db-d442-44dc-b1d0-c15c2f96f3b7")));
-        cqlSession.execute(ps.bind(1L, 10L, UUID.fromString("404318db-d442-44dc-b1d0-c15c2f96f3b7")));
-    }
-*/
-
     private void submitCassandraJob() {
         try (CqlSession cqlSession = buildCqlSession()) {
             LOGGER.info("Connection Established to Astra with Keyspace '{}'", cqlSession.getKeyspace().get());
