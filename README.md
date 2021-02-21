@@ -49,7 +49,6 @@ CREATE TABLE ks1.average_rating_by_movie (
 
 c) Check that both counters are `0`
 ```
-
 username@cqlsh:ks1> SELECT * FROM average_rating_by_movie ;
 
  movie_id                             | rating_counter | rating_total
