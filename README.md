@@ -2,8 +2,8 @@
 
 #### Update `application properties` file
 
-- `datastax.astra.secure-connect-bundle` - the location your Astra Secure Connection Bundle file 
-- `spring.data.cassandra.keyspace-name` - keyspace name (I am using `ks1` in my example)
+- `datastax.astra.secure-connect-bundle` - location of Astra Secure Connection Bundle file 
+- `spring.data.cassandra.keyspace-name` - keyspace name (using `ks1` in the example below)
 - `spring.data.cassandra.username` - C* username
 - `spring.data.cassandra.password` - C* password
 
