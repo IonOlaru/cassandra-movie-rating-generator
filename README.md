@@ -1,4 +1,4 @@
-### Update C* counters
+### Update C* counters demo
 
 #### Update `application properties` file
 
